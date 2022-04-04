@@ -16,6 +16,6 @@ module.exports = {
 		.setName('ping')
 		.setDescription('Replies with Pong! (bot testing reasons)'),
 	async execute(interaction) {
-		await interaction.reply({ embeds: [pingEmbed] });
+		await interaction.reply({ embeds: [pingEmbed], ephemeral: true });
 	},
 };
