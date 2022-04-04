@@ -22,6 +22,6 @@ module.exports = {
 		.setName('discordsrv')
 		.setDescription('Details DiscordSRV details'),
 	async execute(interaction) {
-		await interaction.reply({ embeds: [discordSRVEmbed] });
+		await interaction.reply({ embeds: [discordSRVEmbed], ephemeral: true });
 	},
 };
