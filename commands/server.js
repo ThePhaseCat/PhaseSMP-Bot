@@ -22,6 +22,6 @@ module.exports = {
 		.setName('serverdetails')
 		.setDescription('Replies with server details!'),
 	async execute(interaction) {
-		await interaction.reply({ embeds: [serverEmbed] });
+		await interaction.reply({ embeds: [serverEmbed], ephemeral: true });
 	},
 };
