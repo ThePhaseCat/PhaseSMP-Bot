@@ -30,7 +30,7 @@ module.exports = {
 		.setName('rules')
 		.setDescription('Replies with Minecraft Server rules and Discord Server rules'),
 	async execute(interaction) {
-		await interaction.reply({ embeds: [ruleEmbed] });
+		await interaction.reply({ embeds: [ruleEmbed], ephemeral: true });
   },
 };
 
