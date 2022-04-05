@@ -23,14 +23,14 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-  client.user.setPresence({ activities: [{ name: 'V2 | Now featuring slash commands!' }], status: 'online' });
- console.log('Ready!');
+  client.user.setPresence({ activities: [{ name: 'PhaseRail is coming soon' }], status: 'online' });
+  console.log('Bot is online!');
 });
 client.once('reconnecting', () => {
- console.log('Reconnecting!');
+ console.log('Bot is reconnecting!');
 });
 client.once('disconnect', () => {
- console.log('Disconnect!');
+ console.log('Bot has disconnected from Discord!');
 });
 
 //command error system
@@ -44,10 +44,11 @@ client.on('interactionCreate', async interaction => {
 		await command.execute(interaction);
 	} catch (error) {
 		console.error(error);
-		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+		await interaction.reply({ content: 'There was an error executing this command!', ephemeral: true });
 	}
 });
 
+//sends message if someone says bitches
 client.on("message", message => {
   if(message.content.includes("bitches")){
     message.channel.send("<@" + message.author.id + "> , you're welcome https://www.wikihow.com/Get-Girls")
