@@ -9,7 +9,7 @@ Required Packages:
 - express
 - @discord.js/builders
 - @discord.js/rest
-- Sequelize
+- Fetch
 
 Coded and ran on a [replit](https://replit.com) web server (Just use a website pinger to keep online)
 
