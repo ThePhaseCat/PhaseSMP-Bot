@@ -9,7 +9,7 @@ Required Packages:
 - express
 - @discord.js/builders
 - @discord.js/rest
-- Fetch
+- node-fetch (MUST BE VERSION 2, VERSION 3 DOES NOT WORK)
 
 Coded and ran on a [replit](https://replit.com) web server (Just use a website pinger to keep online)
 
