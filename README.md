@@ -17,6 +17,7 @@ This discord bot has been made with the latest version of discord.js and feature
 - express (Creates a website to be able to stay online for longer periods of time)
 - @discord.js/builders
 - @discord.js/rest
+- node-fetch (can not be version 3)
 
 - Originally programmed via [replit](https://replit.com)
 - Bot currently runs on a web server being hosted by [replit](https://replit.com)
