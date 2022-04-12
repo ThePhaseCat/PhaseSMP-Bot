@@ -1,6 +1,8 @@
 ## PhaseSMP Bot
 
-This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft survival server). The discord server is private and will remain private for the foreseeable future. This bot was originally made for the use of DiscordSRV, but has now migrated to a more standard discord bot (in my opinion)
+This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft survival server). The discord server is private and will remain private for the foreseeable future. This bot was originally made for the use of DiscordSRV, but has now migrated to a more standard discord bot with more typical bot features
+
+## This bot's main purpose is still DiscordSRV. I might make a seperate version of this bot for more standard bot features!
 
 ## In order to try/test the bot out for yourself, you will need to build/run this bot yourself
 
