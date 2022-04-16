@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const { Client, Collection, Intents } = require('discord.js');
 const express = require("express");
 const app = express();
+const { token } = require('./config.json');
 
 app.listen(3000, () => {
  console.log("Project is running!");
@@ -23,7 +24,7 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-  client.user.setPresence({ activities: [{ name: 'PhaseRail is coming soon' }], status: 'online' });
+  client.user.setPresence({ activities: [{ name: 'meow' }], status: 'online' });
   console.log('Bot is online!');
 });
 client.once('reconnecting', () => {
@@ -55,4 +56,4 @@ client.on("message", message => {
   }
 })
 
-client.login(process.env.tokenKey);
+client.login(token);
