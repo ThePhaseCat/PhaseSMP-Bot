@@ -9,8 +9,7 @@ module.exports = {
         .setDescription('Sends a random picture of a cat! (Sadly, not PhaseCat)'),
   
   async execute(interaction) {
-      const apiKey = message.client.apiKeys.catApi;
-      const res = await fetch('https://api.thecatapi.com/v1/images/search', { headers: { 'x-api-key': apiKey }});
+      const res = await fetch('https://api.thecatapi.com/v1/images/search');
       const img = (await res.json())[0].url;
       const embed = new MessageEmbed()
         .setTitle('🐱  Meow!  🐱')
