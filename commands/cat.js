@@ -5,14 +5,14 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('fox')
-        .setDescription('Sends a random picture of a fox (PhaseFox? :eyes:)'),
+        .setName('cat')
+        .setDescription('Sends a random picture of a cat! (Sadly, not PhaseCat)'),
   
   async execute(interaction) {
-      const res = await fetch('https://randomfox.ca/floof/');
-      const img = (await res.json()).image;
+      const res = await fetch('https://api.thecatapi.com/v1/images/search');
+      const img = (await res.json())[0].url;
       const embed = new MessageEmbed()
-        .setTitle('🦊  What does the fox say?  🦊')
+        .setTitle('🐱  Meow!  🐱')
         .setImage(img)
    await interaction.reply({ embeds: [embed]});
     }
