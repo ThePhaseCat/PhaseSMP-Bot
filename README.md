@@ -2,11 +2,9 @@
 
 This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft survival server). The discord server is private and will remain private for the foreseeable future. This bot was originally made for the use of DiscordSRV, but has now migrated to a more standard discord bot with more typical bot features
 
-## This bot's main purpose is still DiscordSRV. I might make a seperate version of this bot for more standard bot features!
+## The bot will only function in one server. There are no plans to add support for multiple servers
 
-## The bot will only function in one server, there are no plans to add support for multiple servers
-
-This discord bot has been made with the latest version of discord.js and features several things!
+This discord bot has been made with the latest version of discord.js (13) and features several things and features!
 - Ability to ratio people alongside other questionable things
 - Embed system for easy adding/changing of embeds
 - Robust set of information commands
