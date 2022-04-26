@@ -4,22 +4,21 @@ This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft s
 
 ## This bot's main purpose is still DiscordSRV. I might make a seperate version of this bot for more standard bot features!
 
-## In order to try/test the bot out for yourself, you will need to build/run this bot yourself
+## The bot will only function in one server, there are no plans to add support for multiple servers
 
-## The bot will only function in one server, it currently does not support mutliple servers
-
-This discord bot has been made with the latest version of discord.js and features several features...
-- Ability to ratio people alongside other (more questionable) things
+This discord bot has been made with the latest version of discord.js and features several things!
+- Ability to ratio people alongside other questionable things
 - Embed system for easy adding/changing of embeds
-- Robust set of information commands (easy to change if needed)
+- Robust set of information commands
+- Unique internet pulling system to allow for random images and facts
 
 ## Required Packages:
 - discord-api-types
 - discord.js
-- express (Creates a website to be able to stay online for longer periods of time)
+- express (Creates a website to be pinged, keeps bot online)
 - @discord.js/builders
 - @discord.js/rest
-- node-fetch (can not be version 3)
+- node-fetch (MAKE SURE IT'S VERSION 2 AND NOT VERSION 3)
 
 - Originally programmed via [replit](https://replit.com)
 - Bot currently runs on a web server being hosted by [replit](https://replit.com)
