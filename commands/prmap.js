@@ -5,6 +5,6 @@ module.exports = {
         .setName('prmap')
         .setDescription('Provides image for the PhaseRail Map'),
   async execute(interaction) {
-		return interaction.reply(`The PhaseRail Map will be provided once the first line opens...`);
+		return interaction.reply(`This will be updated soon with a two maps; a map that contains line paths on top of a geographic map and a map containing just the stations along a route.`);
 	},
 };
