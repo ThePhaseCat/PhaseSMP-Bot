@@ -6,7 +6,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('cat')
-        .setDescription('Sends a random picture of a cat! (Sadly, not PhaseCat)'),
+        .setDescription('Finds a random cat for your viewing pleasure'),
   
   async execute(interaction) {
       const res = await fetch('https://api.thecatapi.com/v1/images/search');
