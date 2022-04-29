@@ -2,13 +2,15 @@
 
 This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft survival server). The discord server is private and will remain private for the foreseeable future. This bot was originally made for the use of DiscordSRV, but has now migrated to a more standard discord bot with more typical bot features
 
-## The bot will only function in one server. There are no plans to add support for multiple servers
 
 This discord bot has been made with the latest version of discord.js (13) and features several things and features!
 - Ability to ratio people alongside other questionable things
 - Embed system for easy adding/changing of embeds
 - Robust set of information commands
 - Unique internet pulling system to allow for random images and facts
+- Easy to customize existing commands and to add new ones as well!
+
+## The bot supports multiple servers, but I'm not hosting this for public use at this time. You will have to host it yourself (Instructions later)
 
 ## Required Packages:
 - discord-api-types
@@ -35,9 +37,10 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - Name it whatever you want your new command to be (no spaces)
 - Use the current discord.js slash command system to create a command!
 - Or simply copy and paste from other commands to create your own!
+- If there are any issues, feel free to create an issue!
 
 ## Registering new commands:
-- Start the bot
+- Start the bot 
 - Go to the shell and type in 'node deploy-commands.js'
 - If it outputs 'Successfully reloaded application (/) commands', then the commands have updated!
 
@@ -47,3 +50,5 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - Adjust the 'client.user.setPresense' to update the status of the bot!
 - 
 Feel free to provide any suggestions or feedback on my code, should be pretty simple to understand/manage. Plus, it's in a modular system, so it's easy to add new commands and what know whenever you feel like it!
+
+## IF YOU HAVE ANY ISSUES, FEEL FREE TO CREATE AN ISSUE AND I CAN HELP YOU
