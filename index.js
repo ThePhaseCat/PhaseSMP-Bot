@@ -33,6 +33,8 @@ client.once('reconnecting', () => {
 client.once('disconnect', () => {
  console.log('Bot has disconnected from Discord!');
 });
+//If bot isn't working, uncomment this to see if it's being rate-limited
+//client.on("debug", ( e ) => console.log(e));
 
 //command error system
 client.on('interactionCreate', async interaction => {
