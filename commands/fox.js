@@ -6,7 +6,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('fox')
-        .setDescription('Sends a random picture of a fox (PhaseFox? :eyes:)'),
+        .setDescription('Finds a random fox for your viewing pleasure'),
   
   async execute(interaction) {
       const res = await fetch('https://randomfox.ca/floof/');
