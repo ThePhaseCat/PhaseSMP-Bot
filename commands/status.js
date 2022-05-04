@@ -1,4 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const { Client, Collection, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, "GUILD_MESSAGES", "GUILDS"] });
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -11,6 +13,10 @@ module.exports = {
                 .setRequired(true)
         ),
   async execute(interaction) {
-		return interaction.reply(`something should be displayed: ${interaction.options.getString('text')}`);
+    const status = interaction.options.getString('text');
+    client.user.setPresense((status));
+		await interaction.reply(`something should be displayed: ${interaction.options.getString('text')}`);
 	},
 };
+
+//client.user.setPresence({ activities: [{ name: 'meow' }], status: 'online' });
