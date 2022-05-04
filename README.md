@@ -32,12 +32,23 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - Run project and you should be good to go!
 - Please look down below for guides on how to do several things with the bot
 
-## Adding new commands:
+## Creating new slash commands:
 - Make a new .js file in the commands folder 
-- Name it whatever you want your new command to be (no spaces)
-- Use the current discord.js slash command system to create a command!
-- Or simply copy and paste from other commands to create your own!
-- If there are any issues, feel free to create an issue!
+- Name it whatever you want your new command to be!
+- Let's look at a quick example, so you see how the command system works!
+- (Due to Github's readme system, the formating looks quite weird. If you're confused, feel free to reference a command in the commands folder for more clarity)
+
+- const { SlashCommandBuilder } = require('@discordjs/builders'); `Brings in the proper formatting system to allow the commands to work`
+- module.exports = {
+  - data: new SlashCommandBuilder()
+      - .setName('example')
+      - .setDescription('sends a message containing example'), `Sets the name and description of the slash command. This can also contain options and user inputs (See other commands in the commands folder)`
+- async execute(interaction) { `This is the part that states what should happen upon using this command. There are many different types of this, please see other commands to see what other kinds of interactions there are using this slash command system`
+-	return interaction.reply(`haha this is an example slash command`);
+- },
+- };
+
+## PLEASE NOTE THAT COMMANDS MUST BE ALL LOWERCASE AND CONTAIN NO SPACES IN ORDER TO WORK CORRECTLY
 
 ## Registering new commands:
 - Start the bot 
