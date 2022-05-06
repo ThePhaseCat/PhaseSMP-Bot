@@ -51,11 +51,4 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-//sends message if someone says bitches
-client.on("message", message => {
-  if(message.content.includes("bitches")){
-    message.channel.send("<@" + message.author.id + "> , you're welcome https://www.wikihow.com/Get-Girls")
-  }
-})
-
 client.login(token);
