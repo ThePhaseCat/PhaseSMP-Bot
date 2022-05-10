@@ -35,6 +35,7 @@ client.once('disconnect', () => {
   client.user.setPresence({ activities: [{ name: 'Disconnected from Discord' }], status: 'online' });
  console.log('Bot has disconnected from Discord!');
 });
+client.on('debug', console.log)
 //If bot isn't working, uncomment this to see if it's being rate-limited
 //client.on("debug", ( e ) => console.log(e));
 
@@ -53,11 +54,4 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-//sends message if someone says bitches
-client.on("message", message => {
-  if(message.content.includes("bitches")){
-    message.channel.send("<@" + message.author.id + "> , you're welcome https://www.wikihow.com/Get-Girls")
-  }
-})
-
-client.login(token);
+client.login(process.env.tokenKey);
