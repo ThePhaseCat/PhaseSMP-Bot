@@ -19,7 +19,9 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - @discord.js/builders
 - @discord.js/rest
 - node-fetch (MAKE SURE IT'S VERSION 2 AND NOT VERSION 3)
+- pokedev.js 
 
+## Other Information
 - Originally programmed via [replit](https://replit.com)
 - Bot currently runs on a web server being hosted by [replit](https://replit.com)
 - Currently being kept online via a website pinger 
