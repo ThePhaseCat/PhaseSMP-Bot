@@ -24,15 +24,18 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-  client.user.setPresence({ activities: [{ name: 'meow' }], status: 'online' });
+  client.user.setPresence({ activities: [{ name: 'PhaseSMP Bot, now with pictures!' }], status: 'online' });
   console.log('Bot is online!');
 });
 client.once('reconnecting', () => {
+  client.user.setPresence({ activities: [{ name: 'Reconnecting!' }], status: 'online' });
  console.log('Bot is reconnecting!');
 });
 client.once('disconnect', () => {
+  client.user.setPresence({ activities: [{ name: 'Disconnected from Discord' }], status: 'online' });
  console.log('Bot has disconnected from Discord!');
 });
+client.on('debug', console.log)
 //If bot isn't working, uncomment this to see if it's being rate-limited
 //client.on("debug", ( e ) => console.log(e));
 
