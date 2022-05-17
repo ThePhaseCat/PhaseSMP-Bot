@@ -24,7 +24,7 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 ## Other Information
 - Originally programmed via [replit](https://replit.com)
 - Bot currently runs on a web server being hosted by [replit](https://replit.com)
-- Currently being kept online via a website pinger 
+- Private hosting being kept online by a website pinger (i would recommend doing this unless you can self-host)
 
 ## Steps to run/build this this:
 - Clone project
