@@ -10,7 +10,7 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - Unique internet pulling system to allow for random images and facts
 - Easy to customize existing commands and to add new ones as well!
 
-## The bot supports multiple servers, but I'm not hosting this for public use at this time. You will have to host it yourself (Instructions later)
+## I am currently not hosting this bot to the public. Therefore, you will need to host this yourself. Instructions are later in this document!
 
 ## Required Packages:
 - discord-api-types
