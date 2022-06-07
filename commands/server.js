@@ -9,10 +9,10 @@ const serverEmbed = new MessageEmbed()
 	.setTitle('PhaseSMP Server Details!')
 	.setDescription('**PhaseSMP began around June 15th, 2021**')
 	.addFields(
-		{ name: '**Server IP**', value: 'PhaseCat.minehut.gg', inline: true },
+		{ name: '**Server IP**', value: 'IP NOT SHOWN BECAUSE IT IS PRIVATE', inline: true },
 		{ name: '**World Seed**', value: '(-2883509619344644771)', inline: true },
-    { name: '**Server Version**', value: '1.18.2', inline: true },
-    { name: '**Difficulty**', value: 'Normal', inline: true },
+    { name: '**Server Version**', value: '1.19', inline: true },
+    { name: '**Difficulty**', value: 'Hard', inline: true },
 	)
 	.setImage('https://i.imgur.com/OVnZ6hB.png')
 	.setTimestamp()
