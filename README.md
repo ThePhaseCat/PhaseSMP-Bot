@@ -31,7 +31,7 @@ This discord bot has been made with the latest version of discord.js (13) and fe
 - Make sure you have all required packages installed
 - Head into deploy-commands.js and change the `ClientID` and `GuildID` to your discord bot's clientID and discord server ID
 - Head to config.json and change the token variable to your bot's token!
-- Run project and you should be good to go!
+- Run project and you should be good to go! 
 - Please look down below for guides on how to do several things with the bot
 
 ## Creating new slash commands:
