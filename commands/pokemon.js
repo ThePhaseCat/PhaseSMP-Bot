@@ -20,7 +20,7 @@ module.exports = {
     );
 
     interaction.reply(
-      `You have 30 seconds to guess the Pokemon's name correctly.`
+      `You have 30 seconds to guess this Pokemon's name correctly!`
     );
 
     const pokemon = await getPokemonRandom();
@@ -52,7 +52,7 @@ module.exports = {
 
     collector.on("end", () => {
       if (isCorrect) {
-        channel.send(`<@${winnerId}> wins!`);
+        channel.send(`<@${winnerId}> guessed ${correctAnswer} in less than 30 seconds!`);
       } else {
         channel.send(`Time's Up! The correct answer was ${correctAnswer}.`);
       }
