@@ -9,7 +9,7 @@ module.exports = {
 		.setName('rules')
 		.setDescription('Replies with Minecraft Server rules and Discord Server rules!'),
 	async execute(interaction) {
-		await interaction.reply({'To view rules, please check the rules discord channel located in the PhaseSMP discord!' , ephemeral: true });
+		return interaction.reply(`Check the rules in the discord lol`);
   },
 };
 
