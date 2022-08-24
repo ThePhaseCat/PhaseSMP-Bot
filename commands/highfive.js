@@ -7,10 +7,10 @@ module.exports = {
         .addUserOption(option =>
             option
                 .setName('user')
-                .setDescription('The user you want to high-five!')
+                .setDescription('The user you would like to high-five!')
                 .setRequired(true)
         ),
   async execute(interaction) {
-		return interaction.reply(`${interaction.user} decides to give ${interaction.options.getUser('user')} a positive high-five!`);
+		return interaction.reply(`${interaction.user} decides to give ${interaction.options.getUser('user')} a high-five! Yeah!`);
 	},
 };
