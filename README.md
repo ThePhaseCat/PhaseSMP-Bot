@@ -1,4 +1,7 @@
-## PhaseSMP Bot
+## As of November 3rd, 2022, this bot is no longer in develpment, and is considered cancelled. This was a fun bot to make, but ultimatly did not meet my expectations. Feel free to run the bot yourself, but I will not be offering any support or help in relation to this. Thank you for all the support on this bot, however!
+-PhaseCat
+
+##
 
 This is a discord bot used on the PhaseSMP Discord Server (A private Minecraft survival server). The discord server is private and will remain private for the foreseeable future. This bot was originally made for the use of DiscordSRV, but has now migrated to a more standard discord bot with more typical bot features
 
